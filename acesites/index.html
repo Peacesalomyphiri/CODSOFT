@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Peace_Sites_Home_Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b9e682cbd4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div>
+            <nav class="nav-links">
+
+                <h2 class="logo">ACE~SITES</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Designer</p>
+                <h1>Hey There, I'm <span>Peace</span><br>
+                    Salomy From Malawi</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/5.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="imp-cont">
+                        I’m a passionate web developer with a knack for crafting beautiful, responsive, and
+                        user-friendly websites.<br>
+                        With 2 years of experience in the industry.
+                        <br><br>
+                        <strong class="imp">My Journey</strong> <br>
+                        My web development journey began with a curiosity about how websites work and a desire to create
+                        my own.
+                        <br> Each project has honed my skills and deepened my understanding of the web’s potential.
+                        <br><br>
+                        <strong class="imp">My Approach</strong> <br>
+                        I believe in a user-centered design philosophy, where the user’s needs and experience drive the
+                        project’s <br>
+                        direction. I prioritize collaboration and communication, ensuring that the final product not
+                        only meets but
+                        <br>exceeds expectations. My goal is to deliver web solutions that are not only functional and
+                        efficient but also
+                        <br> engaging and visually appealing.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Creating Websites</li>
+                            <li><span>Mobile Application</span><br>Creating Mobile Applications</li>
+                            <li><span>UL/UX Design</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Design</span><br>Designing Web page layouts</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Web development Internship</li>
+                            <li><span>2023</span><br>Developed a Website for Mum Kitchens South Africa</li>
+                            <li><span>2022</span><br>UL/UX Design Project</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>IIE MSA</li>
+                            <li><span>2021</span><br>Target PVT Secondary School</li>
+                            <li><span>2017 - 2020</span><br>Edinburgh Girls High School</li>
+                            <li><span>2016</span><br>Blantyre Baptist Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#services" class="btn">Services</a>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing and user-friendly<br>
+                        websites that are responsive and optimized for all devices.</p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UL/UX Design</h2>
+                    <p>Designing intuitive and engaging interfaces for websites and apps,
+                        <br> focused on user experience and usability.
+                    </p>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App Design</h2>
+                    <p>Developing innovative and easy-to-navigate mobile
+                        <br>applications for both iOS and Android platforms.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/yoh.png">
+                    <div class="layer">
+                        <h3>Websites</h3>
+                        <p>We create amazing websites</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ri.png">
+                    <div class="layer">
+                        <h3>Interfaces</h3>
+                        <p>Interfaces that will blow your mind</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/9.png">
+                    <div class="layer">
+                        <h3>Mobile Application</h3>
+                        <p>We develop a wide range of mobile applications</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Back to Top</a>
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ppeace@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> + 27 68 188 1019</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/27681881019"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.pdf" class="btn btn2"> View Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Peace Salomy Phiri, 2024.</p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidem = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidem.style.right = "0";
+        }
+
+        function closemenu() {
+            sidem.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
